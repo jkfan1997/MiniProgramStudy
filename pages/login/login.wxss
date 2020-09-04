@@ -1,0 +1,24 @@
+/* pages/login/login.wxss */
+
+.login-logo {
+  width: 364rpx;
+  height: 74rpx;
+  margin: 122rpx auto 114rpx;
+  border: '2rpx'dashed #000;
+  display: block;
+
+}
+
+.login-btn {
+  width: 609rpx;
+  height: 100rpx;
+  background: #FE1604;
+  border-radius: 6rpx;
+  font-size: 36rpx;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #FFFFFF;
+  line-height: 100rpx;
+}
+
+

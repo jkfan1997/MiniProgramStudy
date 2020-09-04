@@ -1,0 +1,70 @@
+<!--pages/home/home.wxml-->
+<view class="container">
+  <van-dialog message="{{message}}" isShow="{{isShow}}"></van-dialog>
+  <view class="home-header">
+    <view class="header-logo"></view>
+    <view class="companyTitle">
+      <text>{{companyName}}</text>
+      <text>4.5星</text>
+    </view>
+  </view>
+  <view class="home-banner">
+    <image src="/image/home/banner.png"></image>
+  </view>
+  <view class="home-menu">
+    <view class="home-menu-item">
+      <image src="/image/home/订单.png"></image>
+      <text>订单管理</text>
+    </view>
+    <view class="home-menu-item">
+      <image src="/image/home/财务管理.png"></image>
+      <text>财务管理</text>
+    </view>
+    <view class="home-menu-item">
+      <image src="/image/home/客服.png"></image>
+      <text>客服</text>
+    </view>
+    <view class="home-menu-item">
+      <image src="/image/home/工地.png"></image>
+      <text>工地管理</text>
+    </view>
+    <view class="home-menu-item">
+      <image src="/image/home/更多.png"></image>
+      <text>更多</text>
+    </view>
+  </view>
+  <view class="month-info">
+    <view class="month-info-header">
+      <text class="month-info-left"> 
+        <text>本月数据</text>
+        <text>截止至xxxx.xx.xx.xx:xx:xx</text>
+      </text>
+      <text>更多</text>
+    </view>
+    <view class="mouth-info-data">
+      <view class="mouth-data-item">
+        <text>8</text>
+        <text>昨日接单量</text>
+        <text>本月16单</text>
+      </view>
+      <view class="mouth-data-item">
+        <text>0</text>
+        <text>量房</text>
+        <text>本月0单</text>
+      </view>
+      <view class="mouth-data-item">
+        <text>0</text>
+        <text>昨日签约</text>
+        <text>本月0单</text>
+      </view>
+    </view>
+  </view>
+  <view class="yz-coin">
+    <text></text>
+    <text>燕子币</text>
+    <text>燕子币变动</text>
+  </view>
+  <view class="home-advertising-banner">
+    <image src="/image/home/banner(1).png"></image>
+  </view>
+</view>

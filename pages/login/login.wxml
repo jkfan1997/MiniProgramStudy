@@ -1,0 +1,6 @@
+<!--pages/login/login.wxml-->
+
+<view class="container">
+  <image class='login-logo' src="/image/login/378x74.png"></image>
+  <button class='login-btn' bindtap="loginBtnClick">一键登录</button>
+</view>

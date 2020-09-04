@@ -1,0 +1,18 @@
+<!--components/vanDialog/van-dialog.wxml-->
+<view>
+  <view class='login-dialog' hidden="{{isShow}}">
+    <view class='dialog-container'>
+      <view class='dialog-text'>
+        <text>{{message}}</text>
+      </view>
+      <view class="dialog-btn-wrap">
+        <button class='dialog-btn' bindtap="dialogBtnClick">完善店铺信息</button>
+      </view>
+      <view class="dialog-bottom">
+        <text class="go-on">继续逛</text>
+      </view>
+    </view> 
+  </view>
+</view>
+
+
